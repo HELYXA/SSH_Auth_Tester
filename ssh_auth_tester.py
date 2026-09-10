@@ -2,9 +2,7 @@
 Test de robustesse SSH (audit d'authentification)
 
 ⚠️ À N'UTILISER QUE SUR UN SYSTÈME QUE VOUS POSSÉDEZ OU POUR LEQUEL VOUS
-AVEZ UNE AUTORISATION ÉCRITE EXPLICITE DE TEST D'INTRUSION. Tester des
-identifiants sur un système sans autorisation est illégal dans la plupart
-des juridictions (accès non autorisé à un système informatique).
+AVEZ UNE AUTORISATION ÉCRITE EXPLICITE DE TEST D'INTRUSION.
 
 Ce script teste une liste de mots de passe contre un compte SSH pour
 évaluer la résistance du service à une attaque par dictionnaire, dans le
@@ -95,7 +93,7 @@ class SSHAuthTester:
 
 def confirm_authorization(host):
     print("=" * 70)
-    print("⚠️  AVERTISSEMENT LÉGAL")
+    print("⚠️ AVERTISSEMENT LÉGAL")
     print("=" * 70)
     print(f"Vous êtes sur le point de tester des identifiants SSH contre : {host}")
     print("Cela n'est légal que si vous possédez ce système ou disposez d'une")
