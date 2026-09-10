@@ -1,6 +1,6 @@
 # 🔐 Test de robustesse SSH (audit d'authentification)
 
-> Script Python (POO) qui teste la résistance d'un compte SSH à une attaque par dictionnaire — **pour des tests d'intrusion autorisés uniquement.**
+> Script Python (POO) qui teste la résistance d'un compte SSH à une attaque par dictionnaire - **pour des tests d'intrusion autorisés uniquement.**
 
 ## ⚠️ Avertissement légal
 
@@ -8,7 +8,7 @@
 
 ## 🎯 Le projet
 
-Un outil d'audit qui tente une liste de mots de passe contre un compte SSH donné, pour évaluer si le service accepte des mots de passe faibles — le même principe que des outils comme Hydra, mais implémenté ici en Python à but pédagogique. Une temporisation entre les tentatives évite de saturer le service cible.
+Un outil d'audit qui tente une liste de mots de passe contre un compte SSH donné, pour évaluer si le service accepte des mots de passe faibles - le même principe que des outils comme Hydra, mais implémenté ici en Python à but pédagogique. Une temporisation entre les tentatives évite de saturer le service cible.
 
 ## 🧱 Architecture (POO)
 
@@ -38,4 +38,4 @@ Un fichier `passwords_sample.txt` d'exemple est fourni (mots de passe faibles co
 
 ---
 
-*Projet personnel — Bachelor Cybersécurité, dans le cadre strict de tests d'intrusion autorisés.*
+*Projet personnel - Bachelor Cybersécurité, dans le cadre strict de tests d'intrusion autorisés.*
