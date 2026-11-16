@@ -8,7 +8,7 @@
 
 ## 🎯 Le projet
 
-Un outil d'audit qui tente une liste de mots de passe contre un compte SSH donné, pour évaluer si le service accepte des mots de passe faibles - le même principe que des outils comme Hydra, mais implémenté ici en Python à but pédagogique. Une temporisation entre les tentatives évite de saturer le service cible.
+Un outil d'audit qui tente une liste de mots de passe contre un compte SSH donné, pour évaluer si le service accepte des mots de passe faibles, le même principe que des outils comme Hydra, mais implémenté ici en Python à but pédagogique. Une temporisation entre les tentatives évite de saturer le service cible.
 
 ## 🧱 Architecture (POO)
 
